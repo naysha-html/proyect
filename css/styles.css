@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-color:rgb(173, 173, 173);
+    font-family: "Spicy Rice", cursive;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding-top: 6em;
+    display: flex;
+    margin: 5px;
+}
+.datos {
+    background-color: rgba(91, 28, 121, 0.521);
+    padding: 0.5 em;
+    font-size: 110%;
+    font-family: "Questrial", sans-serif;
+    width: auto;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 80px;
+    color: rgb(102, 42, 129);
+    text-shadow: 5px 5px #f5ecff;
+    font-family: 'Cinzel', serif;
+  }
+h2 {
+    font-size: 32px;
+    color: rgb(84, 35, 107);
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+
+}
+button {
+    font-family: "Questrial", sans-serif;
+    font-size: 100%;
+    color: #f5ecff;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(102, 42, 129);
+    margin: 10px;
+
+}
+input {
+    font-family: "Questrial", sans-serif;
+
+    font-size: 90%;
+    color: rgb(53, 20, 68);
+    border-radius: 5px;
+    width: auto;
+    height: 28px;
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    margin: 11px;
+    flex-direction: center;
+
+}
+.lista {
+    background-color: rgba(91, 28, 121, 0.521);
+    padding: 0.5 em;
+    font-size: 110%;
+    font-family: "Questrial", sans-serif;
+    width: auto;
+    border-radius: 5px;
+}
+ul {
+    font-family: "Questrial", sans-serif;
+    font-size: 90%;
+    color: rgb(53, 20, 68);
+    border-radius: 5px;
+    width: auto;
+    height: 28px;
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    margin: 11px;
+    flex-direction: center;
+
+}

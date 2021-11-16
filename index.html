@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Contactos</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Agenda</h1>
+        <div class="task">
+            <h2>Datos: </h2>
+            <div class="datos">
+                <input id="name" type="text" placeholder="  Nombre"/>
+                <input id="day" type="text" placeholder="  Cumpleaños"/>
+                <input id="celpone" type="text" placeholder="  Celular"/>
+                <input id="correo" type="text" placeholder="  Correo"/>
+            </div>
+            <button id="save-btn">Guardar</button>
+            <h2>Lista:</h2>
+        </div>
+        <div class="lista"></div>
+            <ul id="lista"></ul>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="js/scrips.js"></script>
+</body>
+</html>
